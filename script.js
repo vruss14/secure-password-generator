@@ -15,17 +15,15 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-// Declaring new variables
-
-let capitalLetters = ["A" , "B" , "C", "D" , "E" , "F" , "G" , "H" , "I" , "J" , "K" , "L" , "M" , "N" , "O" , "P" , "Q" , "R" , "S" , "T" , "U" , "V" , "W" , "X" , "Y" , "Z"];
-let lowercaseLetters = ["a" , "b" , "c" , "d" , "e" , "f" , "g" , "h" , "i" , "j" , "k" , "l" , "m" , "n" , "o" , "p" , "q" , "r" , "s" , "t" , "u" , "v" , "w" , "x" , "y" , "z"];
-let numericCharacters = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-let specialCharacters = [" ", "!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "<", "=", ">", "?", "@", "[", "]", "^", "_", "-", "`", "{", "}", "~", "|"];
-let userChoice = [];
-
 // Generating the password based on user input
 
-function generatePassword () {
+let generatePassword = function () {
+
+    let capitalLetters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+    let lowercaseLetters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+    let numericCharacters = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+    let specialCharacters = [" ", "!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "<", "=", ">", "?", "@", "[", "]", "^", "_", "-", "`", "{", "}", "~", "|"];
+    let userChoice = [];
     
     let wantLowercase = window.confirm ("Would you like to include lowercase letters in your password?");
 
@@ -73,7 +71,7 @@ function generatePassword () {
         window.alert("You have entered an invalid data type. Please try again.");
         generatePassword ();
         
-    }
+    };
 
     // Utilizing the user's input for password generation
 
@@ -85,4 +83,4 @@ function generatePassword () {
     }
     
     return (password.join(""));
-}
+};
