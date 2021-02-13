@@ -14,7 +14,7 @@ I also ran into an issue with local scope. I then declared variables within the 
 
 I learned that the join method is very helpful in the context of arrays, because it removes the commas between characters. Otherwise, the password will not render properly for the user. 
 
-Overall, although I came across many issues I was previously unfamiliar with, I learned a lot by completing the project and am proud of the result. No errors made by the user do not impact the quality of the password generated, and all errors have been taken into consideration.
+Overall, although I came across many issues I was previously unfamiliar with, I learned a lot by completing the project and am proud of the result. Errors made by the user do not impact the quality of the password generated, and all errors have been taken into consideration.
 
 Please find the deployed application here: https://vruss14.github.io/secure-password-generator/
 
