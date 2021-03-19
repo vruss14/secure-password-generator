@@ -1,5 +1,9 @@
 # Secure Password Generator
 
+## Overview
+
+This application utilizes user input to generate a secure, customized password that can fit the needs of any other website requirements.
+
 ## Description
 
 The purpose of this project was to design a password generator that took a user's input into consideration. A user can whether he or she would like to include lowercase letters, uppercase letters, numbers, and/or special characters in their password. The user can also choose the password's length, within an acceptable range.
@@ -18,6 +22,12 @@ Overall, although I came across many issues I was previously unfamiliar with, I 
 
 Please find the deployed application here: https://vruss14.github.io/secure-password-generator/
 
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
 ## Installation
 
 No installation steps are required to view this project. To view the front-end application, visit the URL above. The application's source code can be found on GitHub here: https://github.com/vruss14/secure-password-generator.
@@ -30,9 +40,13 @@ Below is a screenshot of the deployed application:
 
 ![screenshot of portfolio webpage for desktop](password-generator-screenshot.png)
 
+Below is a screenshot of the deployed application on mobile:
+
+![screenshot of portfolio webpage for mobile](pw-generator-mobile.png)
+
 ## Credits
 
-HTML and CSS source code was provided by the MSU Coding Bootcamp. Valerie Russell created the JavaScript for the application's functionality, and wishes to thank the learning assistant team on Bootcamp Spot for their valuable insights to her questions.
+HTML and CSS source code was provided by the MSU Coding Bootcamp: https://bootcamp.msu.edu/. Valerie Russell created the JavaScript for the application's functionality, and wishes to thank the learning assistant team on Bootcamp Spot for their valuable insights to her questions. Contact Valerie at vruss14@gmail.com.
 
 
 
